@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
 	}
 	cout << "\n";	
 	//selectionSort(v);
-	//insertionSort(v);
+	insertionSort(v);
 	for(int i = 0; i < v.size(); i++){
 		cout << v[i] << " ";
 	}

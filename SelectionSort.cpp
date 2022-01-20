@@ -3,6 +3,7 @@
 using namespace std;
 
 //Execution time O(n^2) - O(n) if it's already sorted.
+//Extra memory cost O(1)
 //Declare a template to make the algorithm generic
 template <class T>
 //The algorithm takes the reference of a vector of any size. Selection sort is not recomended for long vectors.
