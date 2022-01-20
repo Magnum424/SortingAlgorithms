@@ -1,5 +1,6 @@
 #include <iostream>
 #include "SelectionSort.cpp"
+#include "InsertionSort.cpp"
 #include <stdlib.h>
 #include <time.h>
 using namespace std;
@@ -14,7 +15,8 @@ int main(int argc, char** argv) {
 		cout << v[i] << " ";
 	}
 	cout << "\n";	
-	selectionSort(v);
+	//selectionSort(v);
+	//insertionSort(v);
 	for(int i = 0; i < v.size(); i++){
 		cout << v[i] << " ";
 	}
